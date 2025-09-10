@@ -85,6 +85,12 @@ ul { margin: 0 0 12px 1.25rem; }
 
 /* Utilities */
 .links-inline { display: inline-flex; gap: 8px; align-items: center; }
+.markdown-body { text-align: left; margin: 8px auto 16px; max-width: 620px; }
+.markdown-body h1 { font-size: 1.6rem; margin: 0 0 12px; }
+.markdown-body h2 { font-size: 1.25rem; margin: 16px 0 8px; }
+.markdown-body p { color: var(--ink-subtle); margin: 0 0 10px; }
+.markdown-body ul { margin: 0 0 10px 1.2rem; }
+.markdown-body a { color: var(--brand); }
 
 /* Responsive */
 @media (max-width: 920px) {

@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>プライバシーポリシー | Kamin</title>
     <meta name="description" content="Kamin のプライバシーポリシー（後日掲載）" />
-    <link rel="stylesheet" href="css/style.css?v=10" />
+    <link rel="stylesheet" href="css/style.css?v=11" />
   </head>
   <body class="has-fixed-footer">
     <main class="container">
       <h1>プライバシーポリシー</h1>
-      <p>後日掲載いたします。お問い合わせは <a href="mailto:support@kaminapp.com">support@kaminapp.com</a> まで。</p>
+      <div id="md-root" class="markdown-body"></div>
     </main>
 
     <footer class="site-footer only-bottom fixed">
@@ -22,7 +22,11 @@
           <a href="terms.html">利用規約</a>
         </nav>
       </div>
-      <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+      <script src="js/md-renderer.js"></script>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        renderMarkdown('content/privacy-policy.md', 'md-root');
+      </script>
     </footer>
   </body>
   </html>
