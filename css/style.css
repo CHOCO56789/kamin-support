@@ -73,7 +73,7 @@ ul { margin: 0 0 12px 1.25rem; }
 
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); margin-top: 40px; }
-.site-footer.only-bottom { margin-top: 12px; }
+.site-footer.only-bottom { margin-top: 64px; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; }
 .footer-nav { display: flex; gap: 14px; }
 .footer-inner small, .footer-nav a { font-weight: 400; color: rgba(17,17,17,0.5); }
