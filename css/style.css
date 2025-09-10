@@ -4,6 +4,7 @@
   --brand-soft: #ff9ec9;
   --brand-ink: #8e2c59;
   --bg: #ffffff;
+  --bg-softpink: #fff3f8; /* very light pink */
   --ink: #111111;
   --ink-subtle: #555555;
   --border: #e9e9ee;
@@ -19,7 +20,7 @@ body {
   font-family: Inter, "Noto Sans JP", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
   line-height: 1.6;
   color: var(--ink);
-  background: var(--bg);
+  background: linear-gradient(180deg, var(--bg-softpink) 0%, var(--bg) 55%, var(--bg) 100%);
 }
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--brand); text-decoration: none; }
