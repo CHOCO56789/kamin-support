@@ -56,10 +56,10 @@ ul { margin: 0 0 12px 1.25rem; }
 .actions.center { justify-content: center; }
 
 .hero-media { align-self: start; }
-.gallery { display: flex; gap: 12px; }
+.gallery { display: grid; gap: 12px; grid-template-columns: 1fr; }
 .scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 6px; }
 .snap { scroll-snap-type: x mandatory; }
-.gallery img { height: min(70vh, 720px); width: auto; object-fit: contain; border-radius: 12px; border: 1px solid var(--border); background: #fff; scroll-snap-align: start; }
+.gallery img { width: 100%; height: auto; object-fit: contain; border-radius: 12px; border: 1px solid var(--border); background: #fff; }
 .scroll-hint { font-size: 12px; color: var(--ink-subtle); margin-top: 12px; }
 .scroll-hint.center { text-align: center; }
 
