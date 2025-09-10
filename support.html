@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kamin サポート</title>
+    <meta name="description" content="Kamin のサポートページ。FAQ とお問い合わせ窓口をご案内します。" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./">
+          <img class="brand-logo" src="images/logo.png" alt="Kamin ロゴ" />
+          <span class="brand-text">Kamin</span>
+        </a>
+        <nav class="nav">
+          <a class="nav-link" href="index.html">ホーム</a>
+          <a class="nav-link active" href="support.html">サポート</a>
+          <a class="nav-link" href="privacy.html">プライバシー</a>
+          <a class="nav-link" href="terms.html">利用規約</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Kamin サポートページ</h1>
+
+      <section id="faq" class="section">
+        <h2>FAQ（よくある質問）</h2>
+        <div class="faq">
+          <details open>
+            <summary>位置情報は常に取得されますか？</summary>
+            <p>到着通知に必要な範囲で位置情報を使用します。詳細は <a href="privacy.html">プライバシーポリシー</a> をご確認ください。</p>
+          </details>
+          <details>
+            <summary>通知が届かない・遅れる場合の対処は？</summary>
+            <p>電池最適化・低電力モード・位置情報の許可設定などをご確認ください。最新の手順は後日掲載予定です。</p>
+          </details>
+          <details>
+            <summary>対象OSや対応端末を知りたい</summary>
+            <p>対応バージョン・端末の一覧は後日掲載予定です。お急ぎの方はお問い合わせください。</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>お問い合わせ</h2>
+        <p>解決しない場合は、以下のメールアドレスまでお問い合わせください。</p>
+        <p><a class="btn btn-primary" href="mailto:support@kaminapp.com">support@kaminapp.com にメールする</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <small>© <span id="year"></span> Kamin</small>
+        <nav class="footer-nav">
+          <a href="support.html">サポート</a>
+          <a href="privacy.html">プライバシー</a>
+          <a href="terms.html">利用規約</a>
+        </nav>
+      </div>
+      <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </footer>
+  </body>
+  </html>
+
