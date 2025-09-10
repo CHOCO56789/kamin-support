@@ -94,7 +94,7 @@ ul { margin: 0 0 12px 1.25rem; }
 
 /* Brand block */
 .brand-block { margin: 6px 0 10px; }
-.brand-img { width: min(220px, 56%); height: auto; margin: 0 auto 8px; display: block; }
+.brand-img { width: min(140px, 48%); height: auto; margin: 0 auto 8px; display: block; }
 .app-name { font-size: clamp(20px, 2.6vw, 24px); margin: 2px 0 2px; font-weight: 800; color: var(--ink); }
 .app-desc { margin: 0 0 8px; color: var(--brand-ink); font-weight: 600; font-size: 0.95rem; }
 .btn-appstore { letter-spacing: .2px; }
