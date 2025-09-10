@@ -1,6 +1,7 @@
 /* Base tokens */
 :root {
   --brand: #FF6FAF;
+  --brand-soft: #ff9ec9;
   --brand-ink: #8e2c59;
   --bg: #ffffff;
   --ink: #111111;
@@ -24,7 +25,7 @@ img { max-width: 100%; height: auto; display: block; }
 a { color: var(--brand); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-.container { width: min(720px, 92%); margin-inline: auto; }
+.container { width: min(640px, 92%); margin-inline: auto; }
 .center { text-align: center; }
 .section { padding: 40px 0; }
 .section.muted { background: var(--muted); }
@@ -50,8 +51,9 @@ ul { margin: 0 0 12px 1.25rem; }
 .actions { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
 .btn { display: inline-block; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: #fff; color: var(--ink); font-weight: 600; }
 .btn:hover { text-decoration: none; box-shadow: 0 1px 0 rgba(0,0,0,.04); }
-.btn-primary { background: var(--brand); color: #fff; border-color: transparent; }
+.btn-primary { background: var(--brand-soft); color: #fff; border-color: transparent; }
 .btn-primary:hover { filter: brightness(0.98); }
+.actions.center { justify-content: center; }
 
 .hero-media { align-self: start; }
 .gallery { display: flex; gap: 12px; }
@@ -74,8 +76,8 @@ ul { margin: 0 0 12px 1.25rem; }
 .site-footer.only-bottom { margin-top: 12px; }
 .footer-inner { display: flex; justify-content: space-between; align-items: center; padding: 14px 0; }
 .footer-nav { display: flex; gap: 14px; }
-.footer-inner small, .footer-nav a { font-weight: 600; }
-.footer-nav a.strong { font-weight: 700; }
+.footer-inner small, .footer-nav a { font-weight: 400; color: var(--ink-subtle); }
+.footer-nav a:hover { color: var(--ink); }
 
 /* Utilities */
 .links-inline { display: inline-flex; gap: 8px; align-items: center; }
@@ -92,7 +94,7 @@ ul { margin: 0 0 12px 1.25rem; }
 
 /* Brand block */
 .brand-block { margin: 6px 0 10px; }
-.brand-img { width: min(420px, 80%); height: auto; margin: 0 auto 8px; display: block; }
-.app-name { font-size: clamp(22px, 3.2vw, 28px); margin: 2px 0 4px; font-weight: 800; color: var(--ink); }
-.app-desc { margin: 0 0 10px; color: var(--brand-ink); font-weight: 600; }
+.brand-img { width: min(320px, 70%); height: auto; margin: 0 auto 8px; display: block; }
+.app-name { font-size: clamp(20px, 2.6vw, 24px); margin: 2px 0 2px; font-weight: 800; color: var(--ink); }
+.app-desc { margin: 0 0 8px; color: var(--brand-ink); font-weight: 600; font-size: 0.95rem; }
 .btn-appstore { letter-spacing: .2px; }
